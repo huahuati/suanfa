@@ -21,6 +21,7 @@ enum suit s1;
 int main(void)
 {
 
+	//第二次提交，哈哈哈
     s1 = COLOR;
     struct t t1 = {1,{1}};
     f((struct part){1,"dfs",3});
@@ -28,3 +29,4 @@ int main(void)
     system("pause");
     return 0;
 }
+
