@@ -23,6 +23,7 @@ int main(void)
 
 	//第二次提交，哈哈哈
 	//第三次修改,hh
+	//在master中修改并提交
     s1 = COLOR;
     struct t t1 = {1,{1}};
     f((struct part){1,"dfs",3});
