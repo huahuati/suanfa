@@ -24,6 +24,7 @@ int main(void)
 	//第二次提交，哈哈哈
 	//第三次修改,hh
 	//zai hot-fixzhong xiugai
+	//再次测试在，hot-fix中提交
     s1 = COLOR;
     struct t t1 = {1,{1}};
     f((struct part){1,"dfs",3});
