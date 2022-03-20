@@ -32,7 +32,7 @@ void HuffmanCoding(HuffmanTree* HT, HuffmanCode* HC, int* w, int n)
         p->rchild = 0;
     }
 
-    for (; i <= m; ++i)
+    for (; i <= m; ++i,++p)
     {
         p->weight = 0;
         p->parent = 0;
@@ -102,7 +102,7 @@ int main(void)
     int n, i, w[MAXLEN];
     char ch[MAXLEN];
 
-    printf("please input the coding chars length: \n");
+    printf("请输入要编码的字符个数: \n");
     scanf("%d", &n);
     for (i = 0; i < n; i++)
     {
@@ -115,7 +115,7 @@ int main(void)
     for (i = 0; i < n; i++)
         printf("%c", ch[i]);
 
-    printf("huffman coding: ");
+    printf("huffman coding: \n");
     HuffmanCoding(&ht, &hc, w, n);
 
     system("pause");
