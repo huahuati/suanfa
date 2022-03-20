@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+//快速排序算法实现
 void quick_sort(int a[],int start,int end)
 {
     if(start >= end)
