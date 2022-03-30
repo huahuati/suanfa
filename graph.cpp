@@ -107,11 +107,11 @@ void JudgeUDGConnectivity(MGraph G)
             DFS(G,k);
             count++;
         }
-        if(count == 1)
-            cout << "该图为连通图" <<endl;
-        else
-            cout << "该图为非连通图" <<endl;
     }
+    if(count == 0)
+        cout << "该图为连通图" <<endl;
+    else
+        cout << "该图为非连通图" <<endl;
 }
 
 int main(void)
